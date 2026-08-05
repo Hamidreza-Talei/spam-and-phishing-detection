@@ -232,30 +232,26 @@ To verify reproducibility:
 
 The following metrics are used to evaluate model performance:
 
-$$
-\mathrm{Accuracy}
-=
+```math
+\mathrm{Accuracy} =
 \frac{TP + TN}{TP + TN + FP + FN}
-$$
+```
 
-$$
-\mathrm{Precision}
-=
+```math
+\mathrm{Precision} =
 \frac{TP}{TP + FP}
-$$
+```
 
-$$
-\mathrm{Recall}
-=
+```math
+\mathrm{Recall} =
 \frac{TP}{TP + FN}
-$$
+```
 
-$$
-F_1
-=
+```math
+F_1 =
 \frac{2 \times \mathrm{Precision} \times \mathrm{Recall}}
 {\mathrm{Precision} + \mathrm{Recall}}
-$$
+```
 
 Detailed model outputs and comparisons are available inside the corresponding notebooks.
 
