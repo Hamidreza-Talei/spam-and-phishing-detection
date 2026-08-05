@@ -193,7 +193,7 @@ cd spam-and-phishing-detection
 Install the required packages:
 
 ```bash
-pip install numpy pandas scikit-learn jupyter
+pip install -r requirements.txt
 ```
 
 Start Jupyter Notebook:
