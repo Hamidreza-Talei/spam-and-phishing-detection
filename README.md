@@ -11,7 +11,7 @@ The project explores data preprocessing, feature engineering, model implementati
 
 ## Project Overview
 
-### 1. Email Spam Detection
+### [01 — Email Spam Detection](./01_email_spam_detection)
 
 The first notebook focuses on classifying emails as either legitimate (`ham`) or spam.
 
@@ -40,7 +40,7 @@ Notebook:
 
 ---
 
-### 2. Phishing URL Detection
+### [02 — Phishing URL Detection](./02_phishing_url_detection)
 
 The second notebook focuses on distinguishing phishing URLs from legitimate URLs.
 
@@ -232,26 +232,30 @@ To verify reproducibility:
 
 The following metrics are used to evaluate model performance:
 
-\[
-\text{Accuracy} =
+$$
+\mathrm{Accuracy}
+=
 \frac{TP + TN}{TP + TN + FP + FN}
-\]
+$$
 
-\[
-\text{Precision} =
+$$
+\mathrm{Precision}
+=
 \frac{TP}{TP + FP}
-\]
+$$
 
-\[
-\text{Recall} =
+$$
+\mathrm{Recall}
+=
 \frac{TP}{TP + FN}
-\]
+$$
 
-\[
-F_1 =
-\frac{2 \times \text{Precision} \times \text{Recall}}
-{\text{Precision} + \text{Recall}}
-\]
+$$
+F_1
+=
+\frac{2 \times \mathrm{Precision} \times \mathrm{Recall}}
+{\mathrm{Precision} + \mathrm{Recall}}
+$$
 
 Detailed model outputs and comparisons are available inside the corresponding notebooks.
 
