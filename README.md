@@ -165,6 +165,8 @@ spam-and-phishing-detection/
 │   └── phishing/
 │       └── urls.csv
 │
+│── requirements.txt
+│
 └── README.md
 ```
 
